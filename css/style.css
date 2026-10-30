@@ -88,15 +88,41 @@ header ul a{ color: inherit; font-weight: 600;}
 .accordion .acc-text p{ margin: 1rem 0 2rem; }
 .accordion .acc-text a{ width: 184px; line-height: 51px; background: var(--blue); color: var(--white); text-align: center; border-radius: 5px;}
 
+.testimonials{ margin: 10rem 0; text-align: center;}
+.testimonials .card{ box-shadow: 0 0 18px #0000001a; padding: 6rem 64px 0;}
+.card p{ margin: 2rem 0; }
+.card .ratings span{ color: var(--hgray); font-size: 20px; }
+.card .ratings span.fill{ color: var(--yellow); }
+.card img{ transform: translateY(34px);}
+.testimonials h3{ margin-top: 54px;}
+
+
+.projects p{ margin: 2rem 0;}
+.projects .p-text{ max-width: 400px; margin: auto; }
+.projects a{ width: 214px; line-height: 51px; background: var(--blue); color: var(--white); text-align: center; border-radius: 5px;}
+
+.team{ margin-top: 10rem;}
+.team section{ text-align: center; box-shadow: 0 0 18px #0000001a; padding: 8px; border: 2px solid transparent; border-radius: 5px; margin-top: 4rem;}
+.team section:hover{ border-color: var(--blue);}
+.team section h3{ margin: 2rem 0 .5rem;}
+.social{ list-style: none; padding: 0; gap: 5rem; margin: 4rem 0 6.5rem; }
+.social a{ width: 50px; line-height: 46px; border-radius: 50%; border: 2px solid; color: var(--blue); font-size: 20px;}
+.social a:hover{ background: var(--blue); color: var(--white);}
 
 
 .wrap-3{ background: var(--blue); color: #fff; padding: 6rem 0; }
+.f-top{ margin-bottom: 4rem; }
+.f-top h3{ color: var(--gray); font-size: 18px; font-weight: 600; margin-bottom: 23px;}
+.f-top ul{ list-style: none; padding: 0;}
+.f-top a{ color: inherit; line-height: 4rem;}
+
+.f-bottom{ color: var(--gray);}
 
 
 
 /* responsive */
 @media screen and (max-width:1280px){
-     
+     .testimonials .card{ padding-inline: 30px;}
 }
 
 @media screen and (max-width:980px){
@@ -107,6 +133,10 @@ header ul a{ color: inherit; font-weight: 600;}
      .col-t-12{ grid-column: span 12;}
      .accordion ul, .accordion ul li{ flex-flow: column;}
      .accordion a.vert{ height: 81px; writing-mode: horizontal-tb;}
+     .testimonials .card{ padding-inline: 10px;}
+     .social{ gap: 2rem; }
+     .f-top .f1{ flex: 100%;}
+     .f-top .flex{ flex-flow: wrap; gap: 4rem; }
 }
 
 @media screen and (max-width:767px){
@@ -117,6 +147,7 @@ header ul a{ color: inherit; font-weight: 600;}
      .col-m-6{ grid-column: span 6;}
      .col-m-12{ grid-column: span 12;}
      .col-m-order-bef{ order: -1;}
+     .social{ gap: 1rem; }
 }
 
 @media screen and (max-width:460px){
@@ -125,4 +156,5 @@ header ul a{ color: inherit; font-weight: 600;}
      .col-p-6{ grid-column: span 6;}
      .col-p-12{ grid-column: span 12;}
      .collapse .flex{ flex-flow: column;}
+     .f-bottom .flex{ flex-flow: column; gap: 3rem;}
 }
