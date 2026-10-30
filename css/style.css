@@ -84,7 +84,7 @@ header ul a{ color: inherit; font-weight: 600;}
 .accordion li:first-child a.vert, .accordion li:hover a.vert{ border-color: var(--blue);}
 .accordion a.vert{height: 300px; writing-mode: sideways-lr; flex-shrink: 0; text-align: center; line-height: 81px; font-size: 24px; font-weight: 500; color: var(--blue); box-shadow: 0 0 18px #0000001a; border-radius: 5px; border: 2px solid transparent;}
 .accordion .acc-img{ flex-shrink: 0;}
-.accordion .acc-text h3{font-size: 24px; font-size: 500; }
+.accordion .acc-text h3{font-size: 24px; font-weight: 500; }
 .accordion .acc-text p{ margin: 1rem 0 2rem; }
 .accordion .acc-text a{ width: 184px; line-height: 51px; background: var(--blue); color: var(--white); text-align: center; border-radius: 5px;}
 
